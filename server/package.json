@@ -1,0 +1,22 @@
+{
+  "name": "multi-device-audio-sync-server",
+  "version": "1.0.0",
+  "description": "Signaling and Micro-NTP Clock Synchronization Server for Multi-Device Audio Sync",
+  "main": "signaling_server.js",
+  "scripts": {
+    "start": "node signaling_server.js",
+    "test": "node --check signaling_server.js"
+  },
+  "keywords": [
+    "audio-sync",
+    "ntp",
+    "websocket",
+    "signaling",
+    "matchmaking"
+  ],
+  "author": "AudioSync Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
